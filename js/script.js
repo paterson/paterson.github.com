@@ -330,10 +330,9 @@
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
 		
-		$('#mc-form').ajaxChimp({
-			// todo change.
-		    url: 'https://ayda.us10.list-manage.com/subscribe/post?u=92e445eb31312cd88035cf05b&id=4d9f22b2a4'
-		});
+		$('#mc-embedded-subscribe').on('submit', function() {
+			$('#mc-embedded-subscribe').html("Thanks! Check your inbox!");
+		})
 
 	});
 
