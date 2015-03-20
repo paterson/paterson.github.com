@@ -132,10 +132,13 @@
 							</div>
 							<div class="row hero-email-submission">
 								<div class="col-md-10 col-md-offset-1">
-									<input class="hero-email-input col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-12" placeholder="Your Email Address" />
-									<div class="col-md-3 col-sm-3 col-xs-12">
-										<a href="#" class="col-md-11 col-md-offset-1 col-xs-12 btn btn-lg btn-primary hero-email-input-button">Try it out</a>
-									</div>
+									<form id="mc_form">
+										<label for="mc_email"></label>
+										<input class="hero-email-input col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1 col-xs-12" id="mc_email" placeholder="Your Email Address" />
+										<div class="col-md-3 col-sm-3 col-xs-12">
+											<a href="javascript:{}" onclick="document.getElementById('mc_form').submit(); return false;" class="col-md-11 col-md-offset-1 col-xs-12 btn btn-lg btn-primary hero-email-input-button">Try it out</a>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
