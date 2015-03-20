@@ -331,7 +331,7 @@
 		$window.trigger( 'scroll' );
 		
 		$('#mc-embedded-subscribe-form').on('submit', function() {
-			$('#mc-embedded-subscribe').prop('value', "Thanks! Check your inbox!");
+			$('#mc-embedded-subscribe').prop('value', "Thanks!");
 		})
 
 	});
