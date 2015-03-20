@@ -1203,8 +1203,8 @@ iframe {
 .headline-text-image-truncated {
 	padding: 0 0 !important;
 	margin-bottom: 60px !important;
-	width: 80px;
-	height: 40px;
+	width: 100px;
+	height: 50px;
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
 }
@@ -1248,7 +1248,7 @@ iframe {
 .benefit {
 	text-align: center;
 	padding: 50px;
-	background-color: #f6f6f6;
+	background-color: white;
 	margin: 15px 0;
 	height: 330px;
 
@@ -1275,7 +1275,7 @@ iframe {
 }
 .benefit-icon {
 	margin-bottom: 25px;
-	min-height: 60px;
+	height: 80px;
 }
 }
 .section-accent .benefit-icon {
