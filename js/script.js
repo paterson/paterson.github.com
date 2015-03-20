@@ -43,7 +43,7 @@
 		 */
 		var resizeBackground = function() {
 
-			$( '.section-background video, .two-cols-description-image img' ).each(function( i, el ) {
+			$( '.section-background video, .section-background img, .two-cols-description-image img' ).each(function( i, el ) {
 				var $el       = $( el ),
 				    $section  = $el.parent(),
 				    min_w     = 300,
