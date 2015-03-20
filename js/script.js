@@ -330,7 +330,7 @@
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
 		
-		$('#mc-embedded-subscribe').on('submit', function() {
+		$('#mc-embedded-subscribe-form').on('submit', function() {
 			$('#mc-embedded-subscribe').html("Thanks! Check your inbox!");
 		})
 
