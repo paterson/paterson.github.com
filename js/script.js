@@ -332,7 +332,7 @@
 		
 		$('#mc-form').ajaxChimp({
 			// todo change.
-		    url: 'http://blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh9'
+		    url: 'https://ayda.us10.list-manage.com/subscribe/post?u=92e445eb31312cd88035cf05b&id=4d9f22b2a4'
 		});
 
 	});
