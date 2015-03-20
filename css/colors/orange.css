@@ -1,0 +1,242 @@
+/**
+ * ==============================================================
+ * COLOR STYLESHEET
+ * ==============================================================
+ */
+
+ /**
+
+    * TODO Rename
+
+ 	* PURPLE
+	* - basic    : #742265
+	* darken 5%  : #671558
+	* darken 10% : #5B094C
+
+	* Secondary Purple : #8D487C
+
+	* GREY #6b6b6b
+
+*/
+
+/* BOOTSTRAP OVERRIDE */
+a {
+	color: #742265;
+}
+
+a.grey-link {
+	color: #6B6B6B;
+}
+a:focus, a:hover {
+	color: #5B094C;
+}
+.text-primary {
+	color: #742265;
+}
+a.text-primary:hover {
+	color: #5B094C;
+}
+.bg-primary {
+	background-color: #742265;
+}
+a.bg-primary:hover {
+	background-color: #5B094C;
+}
+.btn-primary {
+	background-color: #742265;
+	border-color: #742265 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color: #671558;
+	border-color: #742265;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background-color: #742265;
+}
+.btn-primary .badge {
+	color: #742265;
+}
+.btn-link {
+	color: #742265;
+}
+.btn-link:hover,
+.btn-link:focus {
+	color: #5B094C;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	background-color: #742265;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	border-color: #742265;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: #742265;
+}
+.pagination > li > a,
+.pagination > li > span {
+	color: #742265;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+	color: #5B094C;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #742265;
+	border-color: #742265;
+}
+.label-primary {
+	background-color: #742265;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+	background-color: #671558;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+	color: #742265;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+	border-color: #742265;
+}
+.progress-bar {
+	background-color: #742265;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+	background-color: #742265;
+	border-color: #742265;
+}
+.panel-primary {
+	border-color: #742265;
+}
+.panel-primary > .panel-heading {
+	background-color: #742265;
+	border-color: #742265;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #742265;
+}
+.panel-primary > .panel-heading .badge {
+	color: #742265;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+	border-bottom-color: #742265;
+}
+
+/* COMMON CLASSES */
+.icon-list-icon {
+	background-color: #742265;
+}
+/* HEADER */
+.navbar-nav > li.header-action-button > a.btn-primary:hover, .navbar-nav > li.header-action-button > a.btn-primary:focus {
+	background-color: #671558;
+}
+/* SECTION COLOR */
+.section-accent {
+	background-color: #742265;
+}
+/* BENEFITS */
+.section-accent .benefit {
+	background-color: #671558;
+}
+.benefit-icon {
+	color: #742265;
+}
+/* HOW IT WORKS */
+.hiw-item-icon {
+	background-color: #742265;
+}
+.section-accent .hiw-item {
+	background-color: #742265;
+}
+.section-accent .hiw-item.even {
+	background-color: #671558;
+}
+.section-accent .hiw-item-icon {
+	border-color: #742265;
+}
+.section-accent .hiw-item.even .hiw-item-icon {	
+	border-color: #671558;
+}
+
+.section-heading {
+	color: #8D487C;
+}
+
+.headline-text {
+	color: #6B6B6B;
+}
+/* NUMBERS */
+.numbers-item-counter {
+	color: #742265;
+}
+/* PRICING TABLE */
+.section-accent .pricing-package {
+	background-color: #671558;
+}
+.pricing-package-header {
+	border-bottom-color: #742265;
+}
+.section-dark .pricing-package-header {
+	background-color: #742265;
+}
+/* TESTIMONIAL */
+.section-accent .testimonial {
+	background-color: #671558;
+}
+.testimonial-ratings {
+	color: #742265;
+}
+/* TEAM */
+.section-accent .team-member {
+	background-color: #742265;
+}
+.section-accent .team-member.even {
+	background-color: #671558;
+}
+.section-accent .team-member-icon {
+	border-color: #742265;
+}
+
+/* JPRELOADER */
+#jpreBar {
+	background-color: #742265;
+}
