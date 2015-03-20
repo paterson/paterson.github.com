@@ -331,6 +331,7 @@
 		$window.trigger( 'scroll' );
 		
 		$('#mc-embedded-subscribe-form').on('submit', function() {
+			console.log('submitted');
 			$('#mc-embedded-subscribe').html("Thanks! Check your inbox!");
 		})
 
