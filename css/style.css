@@ -245,8 +245,8 @@ iframe {
 	margin: 0 0 30px;
 	font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; 
 	font-weight: 300;
-	font-size: 28px;
-	letter-spacing: 0.05em;
+	font-size: 24px;
+	letter-spacing: 0.025em;
 	text-transform: uppercase;
 }
 .section-heading:after {
@@ -610,7 +610,8 @@ iframe {
 }
 .header-section,
 .header-section.navbar-inverse {
-	background-color: rgba(255,255,255,0.75);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15), 0px -5px 3px 10px #FFF;
+	background-color: rgba(255,255,255,1.0);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -625,9 +626,8 @@ iframe {
 }
 .header-section.floating,
 .header-section.navbar-inverse.floating {
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	background-color: rgba(255,255,255,0.85);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15), 0px -5px 3px 10px #FFF;
+	background-color: rgba(255,255,255,1.0);
 }
 .header-section.navbar-default.floating {
 	background-color: rgba(255,255,255,0.95);
@@ -830,8 +830,9 @@ iframe {
 		background-color: rgba(255,255,255,0.95);
 	}
 	.navigation.collapsing, .navigation.collapse.in {
-		bottom: 0;
+		bottom: 150px;
 		opacity: 1;
+		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15), 0px -5px 3px 10px #FFF;
 	}
 	.navigation:before {
 		content: "";
@@ -942,7 +943,6 @@ iframe {
 	font-weight: 600; 
 	font-style: normal;
 	text-transform: uppercase;
-	letter-spacing: 0.05em;
 	margin-bottom: 10px;
 }
 
@@ -1190,7 +1190,7 @@ iframe {
 .headline-text {
 	position: relative;
 	padding: 50px 0;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; 
 	font-weight: 300;
 	text-align: center;
@@ -1251,7 +1251,6 @@ iframe {
 	background-color: white;
 	margin: 15px 0;
 	height: 330px;
-
 }
 
 .benefit-purple {
@@ -1267,7 +1266,6 @@ iframe {
 	font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; 
 	font-weight: 400;
 	font-size: 20px;
-	letter-spacing: 0.05em;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 60px;
@@ -1277,7 +1275,11 @@ iframe {
 	margin-bottom: 25px;
 	height: 80px;
 }
+
+.benefit-icon-large {
+	height: 120px;
 }
+
 .section-accent .benefit-icon {
 	color: #444;
 }
@@ -1405,7 +1407,7 @@ iframe {
 	display: block;
 	height: 1px;
 	width: 160px;
-	background-color: #742265;
+	background-color: rgba(0,0,0,0.1);
 }
 
 .numbers-description-text:before {
@@ -1416,13 +1418,14 @@ iframe {
 	display: block;
 	height: 1px;
 	width: 160px;
-	background-color: #742265;
+	background-color: rgba(0,0,0,0.1);
 }
 
 @media (max-width: 992px) {
 	/* hide image of sleeping woman */
 	.numbers-section {
 		background-image: none !important;
+		text-align: center;
 	}
 }
 
