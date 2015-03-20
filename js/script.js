@@ -329,6 +329,11 @@
 
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
+		
+		$('#mc-form').ajaxChimp({
+			// todo change.
+		    url: 'http://blahblah.us1.list-manage.com/subscribe/post?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh9'
+		});
 
 	});
 
