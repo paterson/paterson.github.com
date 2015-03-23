@@ -349,6 +349,7 @@
 				$('#findOutMoreEmail').show();
 			}
 			else {
+				console.log('here');
 				$('#findOutMoreSubmitButton').submit();	
 			}
 		});
