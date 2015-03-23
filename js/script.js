@@ -71,7 +71,7 @@
 				$el.css( 'marginLeft', offet_left );
 
 				/* fix resize and scroll simulataneous issue */
-				$('.hero-section.hero-fullscreen').css('height','100%');
+				$('.hero-section.hero-fullscreen').css('height','auto');
 			});
 
 		};
@@ -126,7 +126,7 @@
 		 * =======================================
 		 */
 		$window.on( 'resize', function() {
-			resizeBackground();
+			//resizeBackground();
 		});
 		/**
 		 * =======================================
