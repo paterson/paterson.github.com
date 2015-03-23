@@ -339,7 +339,10 @@
 				e.preventDefault();
 				$('#findOutMoreSubmitDiv').removeClass("col-md-6");
 				$('#findOutMoreSubmitDiv').removeClass("col-md-offset-3");
+				$('#findOutMoreSubmitDiv').removeClass("col-sm-4");
+				$('#findOutMoreSubmitDiv').removeClass("col-sm-offset-4");
 				$('#findOutMoreSubmitDiv').addClass("col-md-3");
+				$('#findOutMoreSubmitDiv').addClass("col-sm-3");
 				$('#findOutMoreSubmitButton').addClass("col-md-11");
 				$('#findOutMoreSubmitButton').addClass("col-md-offset-1");
 				$('#findOutMoreSubmitButton').prop("value","Sign up");
