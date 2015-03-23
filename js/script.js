@@ -341,6 +341,7 @@
 				$('#findOutMoreSubmitDiv').addClass("col-md-3");
 				$('#findOutMoreSubmitButton').addClass("col-md-11");
 				$('#findOutMoreSubmitButton').addClass("col-md-offset-1");
+				$('#findOutMoreSubmitButton').prop("value","Sign up");
 				$('#findOutMoreEmail').show();
 			}	
 		});
