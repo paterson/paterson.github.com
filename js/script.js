@@ -47,8 +47,8 @@
 				var $el       = $( el ),
 				    $section  = $el.parent(),
 				    min_w     = 300,
-				    el_w      = el.tagName == 'VIDEO' ? el.videoWidth : el.naturalWidth,
-				    el_h      = el.tagName == 'VIDEO' ? el.videoHeight : el.naturalHeight,
+				    el_w      = el.naturalWidth,
+				    el_h      = el.naturalHeight,
 				    section_w = $section.outerWidth(),
 				    section_h = $section.outerHeight(),
 				    scale_w   = section_w / el_w,
@@ -330,9 +330,6 @@
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
 		
-		$('#mc-embedded-subscribe-form').on('submit', function() {
-			$('#mc-embedded-subscribe').prop('value', "Thanks!");
-		})
 
 	});
 
