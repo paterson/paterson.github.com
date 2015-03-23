@@ -331,7 +331,9 @@
 		$window.trigger( 'scroll' );
 		
 		$('#findOutMoreSubmitButton').on('submit', function(e) {
+			console.log("submitting");
 			if ($('#findOutMoreSubmitDiv').hasClass("col-md-6")) {
+				console.log("in if");
 				// prevent default, show input, make button smaller
 				e.preventDefault();
 				$('#findOutMoreSubmitDiv').removeClass("col-md-6");
