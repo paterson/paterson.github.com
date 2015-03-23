@@ -69,6 +69,9 @@
 				$el.css( 'height', new_el_h );
 				$el.css( 'marginTop', offet_top );
 				$el.css( 'marginLeft', offet_left );
+
+				/* fix resize and scroll simulataneous issue */
+				$('.hero-section.hero-fullscreen').css('height','100%');
 			});
 
 		};
