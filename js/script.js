@@ -330,6 +330,19 @@
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
 		
+		$('#findOutMoreSubmitButton').on('submit', function(e) {
+			if ($('#findOutMoreSubmitDiv').hasClass("col-md-6")) {
+				// prevent default, show input, make button smaller
+				e.preventDefault();
+				$('#findOutMoreSubmitDiv').removeClass("col-md-6");
+				$('#findOutMoreSubmitDiv').removeClass("col-md-offset-3");
+				$('#findOutMoreSubmitDiv').addClass("col-md-3");
+				$('#findOutMoreSubmitButton').addClass("col-md-11");
+				$('#findOutMoreSubmitButton').addClass("col-md-offset-1");
+				$('#findOutMoreEmail').show();
+			}	
+		});
+		
 
 	});
 
