@@ -330,7 +330,8 @@
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
 		
-		$('#findOutMoreSubmitButton').on('submit', function(e) {
+		$('#findOutMoreSubmitButton').on('click', function(e) {
+			e.preventDefault();
 			console.log("submitting");
 			if ($('#findOutMoreSubmitDiv').hasClass("col-md-6")) {
 				console.log("in if");
@@ -343,7 +344,10 @@
 				$('#findOutMoreSubmitButton').addClass("col-md-offset-1");
 				$('#findOutMoreSubmitButton').prop("value","Sign up");
 				$('#findOutMoreEmail').show();
-			}	
+			}
+			else {
+				$('#findOutMoreSubmitButton').submit();	
+			}
 		});
 		
 
